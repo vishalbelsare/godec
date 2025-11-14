@@ -1,5 +1,5 @@
 # GoDec
-Python implementation of the GoDec algorithm from [Zhou and Tao (ICML 2011)](http://www.icml-2011.org/papers/41_icmlpaper.pdf) for low-rank and sparse representation. GoDec is one of the most efficient algorithm for low-rank and sparse decomposition thanks to bilateral random projections (BRP), a fast approximation of SVD/PCA.
+This repository provides a lightweight Python implementation of **GoDec**, an efficient algorithm for **low-rank + sparse matrix decomposition** introduced by [Zhou and Tao (ICML 2011)](http://www.icml-2011.org/papers/41_icmlpaper.pdf). It uses **bilateral random projections (BRP)** to approximate SVD/PCA much faster than classical methods, making it suitable for applications like **background subtraction**, **video decomposition**, and **matrix recovery**. The repo includes the core GoDec algorithm, utility functions, demo scripts for OpenCV and MATLAB data, and small example datasets, allowing users to easily test low-rank/sparse separation on images or video streams.
 
 <p align="center"><img src="https://github.com/andrewssobral/godec/raw/master/doc/images/results_highway.png" width="50%" /></p>
 
